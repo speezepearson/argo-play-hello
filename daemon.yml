@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: my-daemon
-          image: my-daemon:v2
+          image: my-daemon:v3
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
